@@ -4,7 +4,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'IoT GL',
+    title: 'Biotech IoT',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -57,7 +57,7 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    baseURL: process.env.AXIOS_BASE_URL 
+    baseURL: process.env.AXIOS_BASE_URL
   },
   env:{
    mqtt_prefix: process.env.MQTT_PREFIX,
