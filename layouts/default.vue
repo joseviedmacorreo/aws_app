@@ -4,8 +4,8 @@
 
     <side-bar
       :background-color="sidebarBackground"
-      short-title="GL"
-      title="IoTicos GL"
+      short-title="BT"
+      title="Biotech Iot"
     >
       <template slot-scope="props" slot="links">
         <sidebar-item
@@ -206,7 +206,7 @@ export default {
 
           window.location.href = "/login";
         }
-        
+
       }
     },
 
@@ -220,13 +220,13 @@ export default {
         this.$store.state.auth.userData._id + "/+/+/notif";
 
       const connectUrl =
-        process.env.mqtt_prefix + 
+        process.env.mqtt_prefix +
         this.options.host +
         ":" +
         this.options.port +
         this.options.endpoint;
 
-        
+
 
       try {
         this.client = mqtt.connect(connectUrl, this.options);
