@@ -2,7 +2,7 @@
   "name": "biotech_app",
   "version": "1.0.0",
   "description": "BIO_TECH_APP",
-  "author": "https://biotecnologiaaltapatagonia.com.ar",
+  "author": "Biotech",
   "scripts": {
     "dev": "nuxt",
     "devn": "nodemon api/index.js --exec babel-node",

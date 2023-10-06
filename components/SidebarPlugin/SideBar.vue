@@ -2,10 +2,10 @@
   <div class="sidebar" :data="backgroundColor">
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
       <div class="logo">
-        <a href="https://biotecnologiaaltapatagonia.com.ar" class="simple-text logo-mini">
+        <a href="https://biotechaltapatagonia.com" class="simple-text logo-mini">
           <img src="img/icon-vue.png" alt="app-logo" />
         </a>
-        <a href="https://biotecnologiaaltapatagonia.com.ar" class="simple-text logo-normal">
+        <a href="https://biotechaltapatagonia.com" class="simple-text logo-normal">
           {{ title }}
         </a>
       </div>

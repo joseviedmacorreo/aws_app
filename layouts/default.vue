@@ -5,7 +5,7 @@
     <side-bar
       :background-color="sidebarBackground"
       short-title="BT"
-      title="Biotech Iot"
+      title="Biotech IoT"
     >
       <template slot-scope="props" slot="links">
         <sidebar-item
